@@ -18,7 +18,8 @@
 		776BB1FD2A8EC32400E54743 /* universitiesJSONUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BB1FC2A8EC32400E54743 /* universitiesJSONUITestsLaunchTests.swift */; };
 		776BB20B2A8EC34C00E54743 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 776BB20A2A8EC34C00E54743 /* SnapKit */; };
 		776BB20E2A8EC35700E54743 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 776BB20D2A8EC35700E54743 /* Alamofire */; };
-		776BB2102A8EC67000E54743 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BB20F2A8EC67000E54743 /* Model.swift */; };
+		776BB2102A8EC67000E54743 /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BB20F2A8EC67000E54743 /* CountryData.swift */; };
+		776BB2122A8F8F9800E54743 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BB2112A8F8F9800E54743 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,8 @@
 		776BB1F62A8EC32400E54743 /* universitiesJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = universitiesJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		776BB1FA2A8EC32400E54743 /* universitiesJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universitiesJSONUITests.swift; sourceTree = "<group>"; };
 		776BB1FC2A8EC32400E54743 /* universitiesJSONUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universitiesJSONUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		776BB20F2A8EC67000E54743 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		776BB20F2A8EC67000E54743 /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
+		776BB2112A8F8F9800E54743 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,8 @@
 				776BB1D62A8EC32200E54743 /* AppDelegate.swift */,
 				776BB1D82A8EC32200E54743 /* SceneDelegate.swift */,
 				776BB1DA2A8EC32200E54743 /* FirstViewController.swift */,
-				776BB20F2A8EC67000E54743 /* Model.swift */,
+				776BB2112A8F8F9800E54743 /* SecondViewController.swift */,
+				776BB20F2A8EC67000E54743 /* CountryData.swift */,
 				776BB1E22A8EC32400E54743 /* Assets.xcassets */,
 				776BB1E42A8EC32400E54743 /* LaunchScreen.storyboard */,
 				776BB1E72A8EC32400E54743 /* Info.plist */,
@@ -272,7 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				776BB2102A8EC67000E54743 /* Model.swift in Sources */,
+				776BB2122A8F8F9800E54743 /* SecondViewController.swift in Sources */,
+				776BB2102A8EC67000E54743 /* CountryData.swift in Sources */,
 				776BB1DB2A8EC32200E54743 /* FirstViewController.swift in Sources */,
 				776BB1E12A8EC32200E54743 /* universitiesJSON.xcdatamodeld in Sources */,
 				776BB1D72A8EC32200E54743 /* AppDelegate.swift in Sources */,
